@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --check js/storage.js)",
+      "Bash(node --check js/engine.js)",
+      "Bash(node --check js/ui.js)",
+      "Bash(node --check js/config.js)",
+      "Bash(node --check js/app.js)",
+      "Bash(node --check \"c:/Users/Zou/Desktop/galgame/js/config.js\")",
+      "Bash(node --check \"c:/Users/Zou/Desktop/galgame/js/app.js\")",
+      "Bash(node --check \"c:/Users/Zou/Desktop/galgame/js/engine.js\")",
+      "Bash(node --check \"c:/Users/Zou/Desktop/galgame/js/ui.js\")",
+      "Bash(node --check \"c:/Users/Zou/Desktop/galgame/js/storage.js\")",
+      "Bash(node -e \"try { require\\('./js/config.js'\\); console.log\\('config.js syntax OK'\\); } catch\\(e\\) { console.log\\('Syntax error:', e.message\\); }\")",
+      "Bash(node --check c:/Users/Zou/Desktop/galgame/js/engine.js)",
+      "Bash(node --check c:/Users/Zou/Desktop/galgame/js/config.js)",
+      "Bash(node --check c:/Users/Zou/Desktop/galgame/js/ui.js)",
+      "Bash(node --check c:/Users/Zou/Desktop/galgame/js/app.js)",
+      "Bash(node --check c:/Users/Zou/Desktop/galgame/js/storage.js)"
+    ]
+  }
+}
